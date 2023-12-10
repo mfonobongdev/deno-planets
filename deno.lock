@@ -1,0 +1,47 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@types/node": "npm:@types/node@18.16.19",
+      "npm:csv-parse@5.5.2": "npm:csv-parse@5.5.2",
+      "npm:csv-parse@5.5.3": "npm:csv-parse@5.5.3",
+      "npm:csv@6.3.6": "npm:csv@6.3.6"
+    },
+    "npm": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
+      "csv-generate@4.3.1": {
+        "integrity": "sha512-7YeeJq+44/I/O5N2sr2qBMcHZXhpfe38eh7DOFxyMtYO+Pir7kIfgFkW5MPksqKqqR6+/wX7UGoZm1Ot11151w==",
+        "dependencies": {}
+      },
+      "csv-parse@5.5.2": {
+        "integrity": "sha512-YRVtvdtUNXZCMyK5zd5Wty1W6dNTpGKdqQd4EQ8tl/c6KW1aMBB1Kg1ppky5FONKmEqGJ/8WjLlTNLPne4ioVA==",
+        "dependencies": {}
+      },
+      "csv-parse@5.5.3": {
+        "integrity": "sha512-v0KW6C0qlZzoGjk6u5tLmVfyZxNgPGXZsWTXshpAgKVGmGXzaVWGdlCFxNx5iuzcXT/oJN1HHM9DZKwtAtYa+A==",
+        "dependencies": {}
+      },
+      "csv-stringify@6.4.5": {
+        "integrity": "sha512-SPu1Vnh8U5EnzpNOi1NDBL5jU5Rx7DVHr15DNg9LXDTAbQlAVAmEbVt16wZvEW9Fu9Qt4Ji8kmeCJ2B1+4rFTQ==",
+        "dependencies": {}
+      },
+      "csv@6.3.6": {
+        "integrity": "sha512-jsEsX2HhGp7xiwrJu5srQavKsh+HUJcCi78Ar3m4jlmFKRoTkkMy7ZZPP+LnQChmaztW+uj44oyfMb59daAs/Q==",
+        "dependencies": {
+          "csv-generate": "csv-generate@4.3.1",
+          "csv-parse": "csv-parse@5.5.3",
+          "csv-stringify": "csv-stringify@6.4.5",
+          "stream-transform": "stream-transform@3.3.0"
+        }
+      },
+      "stream-transform@3.3.0": {
+        "integrity": "sha512-pG1NeDdmErNYKtvTpFayrEueAmL0xVU5wd22V7InGnatl4Ocq3HY7dcXIKj629kXvYQvglCC7CeDIGAlx1RNGA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
